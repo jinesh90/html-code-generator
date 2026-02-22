@@ -10,7 +10,7 @@ st.caption("Powered by Fine-tuned Llama 3.2")
 def load_client():
     token = st.secrets["HUGGINGFACE_TOKEN"]
     return InferenceClient(
-        model="jinesh90/llama-3.2-ft-html-generator",
+        model="jinesh90//llama-3.2-html-generator-merged",
         token=token
     )
 
